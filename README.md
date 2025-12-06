@@ -23,7 +23,7 @@ Use it for:
 | Auto `/help` command         |          ✔️          |
 | Restrict user access         |          ✔️          |
 | Notifications in backtest    | ❌ Disabled by design |
-| Single message handler       |          ✔️          |
+| Custom message handler       |          ✔️          |
 
 ---
 
