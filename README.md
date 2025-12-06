@@ -17,14 +17,12 @@ Use it for:
 
 | Feature                      |        Status        |
 | ---------------------------- | :------------------: |
-| Live trading notifications   |          ✔️          |
+| Send Message                 |          ✔️          |
 | Telegram bot command support |          ✔️          |
 | Basic text message handling  |          ✔️          |
 | Auto `/help` command         |          ✔️          |
 | Restrict user access         |          ✔️          |
 | Notifications in backtest    | ❌ Disabled by design |
-| Custom message handler       |          ✔️          |
-
 ---
 
 ## 🚀 Setup
