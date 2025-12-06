@@ -13,6 +13,20 @@ Use it for:
 
 ---
 
+## 🏁 Summary
+
+| Feature                      |        Status        |
+| ---------------------------- | :------------------: |
+| Live trading notifications   |          ✔️          |
+| Telegram bot command support |          ✔️          |
+| Basic text message handling  |          ✔️          |
+| Auto `/help` command         |          ✔️          |
+| Restrict user access         |          ✔️          |
+| Notifications in backtest    | ❌ Disabled by design |
+| Single message handler       |          ✔️          |
+
+---
+
 ## 🚀 Setup
 
 Enable the plugin inside your strategy:
@@ -122,8 +136,11 @@ You may customize formatting to match your preferences.
 If your bot is publicly reachable:
 
 ✔ Always specify `allowedUsers`
+
 ✔ Commands and messages from others are ignored silently
+
 ✔ Helps prevent unauthorized control of your bot
+
 
 ```js
 allowedUsers: [1033333335]
@@ -173,20 +190,6 @@ trader.addHook("afterOrder", (order) => {
   plugin.telegram.send(myChatId, "Order Given!\n" + formatOrder(order));
 });
 ```
-
----
-
-## 🏁 Summary
-
-| Feature                      |        Status        |
-| ---------------------------- | :------------------: |
-| Live trading notifications   |          ✔️          |
-| Telegram bot command support |          ✔️          |
-| Basic text message handling  |          ✔️          |
-| Auto `/help` command         |          ✔️          |
-| Restrict user access         |          ✔️          |
-| Notifications in backtest    | ❌ Disabled by design |
-| Single message handler       |          ✔️          |
 
 ---
 
