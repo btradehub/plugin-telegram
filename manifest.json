@@ -1,0 +1,18 @@
+{
+  "name": "telegram",
+  "version": "1.0.0",
+  "repository": "https://github.com/btradehub/plugin-telegram",
+  "fullName": "Telegram Notifications/Control",
+  "description": "Telegram messaging and bot control plugin — send trade alerts, receive commands, and interact with your strategy from Telegram.",
+  "api": "1.0.0",
+  "namespace": "telegram",
+  "type": "trader",
+  "permissions": {
+    "network": {
+      "origins": [
+        "https://api.telegram.org"
+      ]
+    }
+  },
+  "tags": "communication,message"
+}
